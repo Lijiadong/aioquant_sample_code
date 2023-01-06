@@ -1,0 +1,8 @@
+{
+  "HEARTBEAT": {
+    "interval": 1
+  },
+  "LOG": {
+    "level": "INFO"
+  }
+}
