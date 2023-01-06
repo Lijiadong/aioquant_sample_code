@@ -12,7 +12,7 @@ class Strategy02:
         host = "https://testnet.binance.vision/api" # 币安现货测试
         access_key = "1xknWUXFboKa3LbH3sHNJGUU90jjp4yCQr9tqM3CNMNumVNXTssXNWl2zDiHvksJ" # 币安现货测试key
         secret_key = "boidkxaaA2rbDJOTsfSVGqqXNZTgblHqaxfKBrKi77krtB1f7uwDpAGD4NhIOjoU" # 币安现货测试secret
-        self._rest_api = BinanceRestAPI(host, access_key, secret_key)
+        self._rest_api = BinanceRestAPI(access_key, secret_key, host=host)
 
         SingleTask.run(self.get_asset_information)
         # SingleTask.run(self.create_new_order)
