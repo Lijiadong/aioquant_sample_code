@@ -1,0 +1,16 @@
+{
+  "LOG": {
+    "level": "INFO"
+  },
+
+
+  "strategy": "strategy07",
+  "platform": "binance",
+  "symbol": "BNB/USDT",
+  "account": "sample_account@gmail.com",
+  "host": "https://testnet.binance.vision/api",
+  "wss": "wss://testnet.binance.vision",
+  "access_key": "1xknWUXFboKa3LbH3sHNJGUU90jjp4yCQr9tqM3CNMNumVNXTssXNWl2zDiHvksJ",
+  "secret_key": "boidkxaaA2rbDJOTsfSVGqqXNZTgblHqaxfKBrKi77krtB1f7uwDpAGD4NhIOjoU",
+  "passphrase": ""
+}
