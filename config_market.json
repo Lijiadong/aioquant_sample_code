@@ -1,0 +1,13 @@
+{
+  "LOG": {
+    "level": "DEBUG"
+  },
+  "RABBITMQ": {
+    "host": "127.0.0.1",
+    "port": 5672,
+    "username": "guest",
+    "password": "guest"
+  },
+  "symbol": "BNB/USDT",
+  "wss": "wss://stream.binance.com:9443"
+}
