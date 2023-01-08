@@ -12,6 +12,6 @@ class Strategy19:
 
     async def send_warning_message(self, *args, **kwargs):
         """推送报警信息"""
-        content = "BTC币安行情丢失, 尝试报警"
+        content = "币安行情丢失, 尝试报警"
         Ding.send_text(content)
 
