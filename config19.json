@@ -22,6 +22,11 @@
   "dingtalk": {
     "token": "8390005b6d8c489c469c8d106cad35f5793ff0895731a233bbf1b8af20cd558f",
     "secret":"SECf9806547f976bc9ecd86576db0eef9963f81c206d1a487117ec71ac460f19abe"
+  },
+
+  "telegram": {
+    "token": "5867309068:AAGl5Bv7su3jpaBov8mPPLvfLF44vRKsNOs",
+    "chat_id": -1
   }
 
 }
