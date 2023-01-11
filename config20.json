@@ -1,0 +1,40 @@
+{
+  "LOG": {
+    "level": "DEBUG"
+  },
+  "RABBITMQ": {
+    "host": "127.0.0.1",
+    "port": 5672,
+    "username": "guest",
+    "password": "guest"
+  },
+  "kline_data": {
+    "database": "binance_future",
+    "collection": "kline_BNBUSDT",
+    "kline_type": "kline"
+  },
+
+  "strategy": {
+    "strategy": "布林带策略-测试盘",
+    "platform": "binance_future",
+    "symbol": "BNBUSDT",
+    "account": "sample_account@gmail.com",
+    "host": "https://testnet.binancefuture.com/fapi",
+    "wss": "wss://stream.binancefuture.com",
+    "access_key": "0bc912b4d4a3f16ad2f98799cd5edfb8760129d990f6bebc3004d0510e4ace01",
+    "secret_key": "9f70a1bdd22f8cb4fd3970e4adb3f75e3bd99b0838633b492425b7bb732c1c57",
+    "passphrase": "",
+    "quantity": 1
+  },
+
+  "dingtalk": {
+    "token": "8390005b6d8c489c469c8d106cad35f5793ff0895731a233bbf1b8af20cd558f",
+    "secret":"SECf9806547f976bc9ecd86576db0eef9963f81c206d1a487117ec71ac460f19abe"
+  },
+
+  "telegram": {
+    "token": "5867309068:AAGl5Bv7su3jpaBov8mPPLvfLF44vRKsNOs",
+    "chat_id": -1001724217188
+  }
+
+}
